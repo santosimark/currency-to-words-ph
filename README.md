@@ -46,6 +46,15 @@ convertToWords(0);
 convertToWords(10500.25);
 // "Ten thousand five hundred pesos and twenty-five centavos"
 
+console.log(convertToWords(250000000.75));
+// "Two hundred fifty million pesos and seventy-five centavos"
+
+console.log(convertToWords(1000000000));
+// "One billion pesos"
+
+console.log(convertToWords(1200.00));
+// "One thousand two hundred pesos"
+
 ```
 
 ## ✅ Use Cases
@@ -64,8 +73,7 @@ convertToWords(10500.25);
 
 - [ ] Filipino (Tagalog) language support
 
-- [ ] Add support for millions/billions
-
-- [ ] Add CLI: currency-to-words 1234.56
+- [x] Add support for millions/billions 
 
 - [ ] Add customization options (uppercase, suffix like "only")
+- [ ] A CLI or browser version 
