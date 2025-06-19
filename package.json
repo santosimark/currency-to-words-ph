@@ -1,0 +1,19 @@
+{
+  "name": "currency-to-words-ph",
+  "version": "1.0.0",
+  "description": "Convert Philippine Peso amounts to words for checks and receipts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santosimark/currency-to-words-ph.git"
+  },
+  "author": "Mark Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santosimark/currency-to-words-ph/issues"
+  },
+  "homepage": "https://github.com/santosimark/currency-to-words-ph#readme"
+}
