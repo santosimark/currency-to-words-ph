@@ -20,3 +20,52 @@
 
 ```bash
 npm install currency-to-words-ph
+```
+
+---
+
+## 🚀 Usage
+
+```bash
+const { convertToWords } = require('currency-to-words-ph');
+
+console.log(convertToWords(1250.50));
+// Output: "One thousand two hundred fifty pesos and fifty centavos"
+
+//MORE EXAMPLES
+
+convertToWords(1.00);
+// "One peso"
+
+convertToWords(1.01);
+// "One peso and one centavo"
+
+convertToWords(0);
+// "Zero pesos"
+
+convertToWords(10500.25);
+// "Ten thousand five hundred pesos and twenty-five centavos"
+
+```
+
+## ✅ Use Cases
+
+🧾 PDF receipts
+
+💵 Check printing
+
+🧮 Accounting software
+
+📃 Government bidding forms
+
+🧑‍💼 Invoicing tools (Laravel, Vue, etc.)
+
+## 🛠 Roadmap
+
+- [ ] Filipino (Tagalog) language support
+
+- [ ] Add support for millions/billions
+
+- [ ] Add CLI: currency-to-words 1234.56
+
+- [ ] Add customization options (uppercase, suffix like "only")
